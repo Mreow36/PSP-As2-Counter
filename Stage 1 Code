@@ -1,0 +1,34 @@
+#
+# File: rowml006@mymail.unisa.edu.au_converter.py
+# Author: Matthew Rowell
+# Email Id: rowml006@mymail.unisa.edu.au
+# Description: lists, sorting and printing
+#   This is my own work as defined by the University's
+#   Academic Misconduct policy.
+#
+
+# Menu options
+print('1. Convert to binary')
+print('2. Convert to decimal')
+print('3. Binary counting')
+print('4. Quit')
+
+selection = ''
+while selection == '' or selection < 1 or selection > 4:
+    
+    selection = int(input('\nWhat would you like to do [1,2,3,4]?'))
+    
+    if selection == 1:
+        print('Your selection: 1. Convert to binary.')
+        
+    elif selection == 2:
+        print('Your selection: 2. Convert to decimal.')
+        
+    elif selection == 3:
+        print('Your selection: 3. Binary counting.')
+        
+    elif selection == 4:
+        print('Your selection: \'4. Quit\' Good Bye.')
+        
+    elif selection <= 0 or selection > 4:
+        print('Invalid number, please choose a number from 1 to 4')
